@@ -36,9 +36,9 @@ class Column extends React.Component {
       <section className={styles.component}>
         <h3 className={styles.title}>
           <span className={styles.icon}>
-            <Icon className={this.props.name} />
+            <Icon className={this.props.icon} />
           </span>
-          {ReactHtmlParser(this.props.titleColumn)}
+          {this.props.title}
         </h3>
         <div className={styles.cards}>
           {this.state.cards.map(({key, ...cardProps}) => (
