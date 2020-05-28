@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 import React from 'react';
 import styles from './Hero.scss';
 import PropTypes from 'prop-types';
